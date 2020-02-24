@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css?family=Anton&display=swap");
+body {
+  font-family: "Anton";
+}
+
+#createUser {
+  text-align: center;
+  margin-top: 30px;
+  margin: 100px;
+}
+nav {
+  background-color: blueviolet;
+  text-align: center;
+}
+#profile {
+  text-align: center;
+}

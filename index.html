@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kabsa</title>
+  </head>
+  <body>
+    <section>
+      <div class="navigation">
+        <nav>
+            <div class="nav-wrapper">
+              <a href="#!" class="brand-logo">Kabsa</a>
+              
+          </nav>
+        
+        
+      </div>
+    </section>
+    
+<div class="row">
+    <form id='createUser' class="col s12">
+        <div class="row">
+            <div class="input-field col s6">
+                <input placeholder="First Name"  id="first_name" type="text">
+                <input placeholder="Id Number"  id="id_number" type="Number">
+                
+              </div>
+              
+        </div>
+        <input type="submit" class="btn btn-dark" value="Create User" />
+    </form>
+</div>
+<section id="profile" style="display: none;">
+<div id='plac'>
+
+</div>
+<div id="identify"></div>
+<span id="balance"></span>
+<div>
+<button id='depo'class="btn btn-danger">Deposit</button>
+<button id="withdrawbtn" class="btn btn-primary">Withdraw</button>
+</div>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>
